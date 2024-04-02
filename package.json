@@ -1,7 +1,8 @@
 {
-  "name": "@tremor/react",
+  "name": "@akkuma/tremor",
   "version": "0.0.0-development",
   "description": "The React library to build dashboards faster.",
+  "sideEffects": false,
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "rollup -c",
@@ -15,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tremorlabs/tremor.git"
+    "url": "https://github.com/akkuma/tremor.git"
   },
   "author": "tremor",
   "license": "Apache 2.0",
